@@ -6,7 +6,7 @@ services:
     environment:
       - TZ=Asia/Jakarta #optional
     volumes:
-      - ./config:/config
+      - ./config:/config:ro
     ports:
       - 9000:9000
     restart: always
