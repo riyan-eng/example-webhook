@@ -2,7 +2,7 @@
     {
         "id": "deploy-first",
         "execute-command": "/root/first/run.sh",
-        "command-working-directory": "root/first",
+        "command-working-directory": "/root/first",
         "response-message": "Executing first script",
         "include-command-output-in-response": true,
         "include-command-output-in-response-on-error": true
@@ -10,7 +10,7 @@
     {
         "id": "deploy-second",
         "execute-command": "/root/second/run.sh",
-        "command-working-directory": "root/second",
+        "command-working-directory": "/root/second",
         "response-message": "Executing second script",
         "include-command-output-in-response": true,
         "include-command-output-in-response-on-error": true
@@ -18,7 +18,7 @@
     {
         "id": "deploy-third",
         "execute-command": "/root/third/run.sh",
-        "command-working-directory": "root/third",
+        "command-working-directory": "/root/third",
         "response-message": "Executing third script",
         "include-command-output-in-response": true,
         "include-command-output-in-response-on-error": true
