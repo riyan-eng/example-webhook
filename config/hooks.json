@@ -9,8 +9,8 @@
     },
     {
         "id": "deploy-second",
-        "execute-command": "./run.sh",
-        "command-working-directory": "/opt/second",
+        "execute-command": "/root/second/run.sh",
+        "command-working-directory": "/root/second",
         "response-message": "Executing second script",
         "include-command-output-in-response": true,
         "include-command-output-in-response-on-error": true
