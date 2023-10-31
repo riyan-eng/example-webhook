@@ -6,7 +6,10 @@ services:
     environment:
       - TZ=Asia/Jakarta #optional
     volumes:
-      - ./config:/config:ro
+      - ./config:/config
+      - /root/first/run.sh:/opt/first/run.sh
+      - /root/second/run.sh:/opt/second/run.sh
+      - /root/third/run.sh:/opt/third/run.sh
     ports:
       - 9000:9000
     restart: always
