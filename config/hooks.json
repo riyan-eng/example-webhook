@@ -1,7 +1,7 @@
 [
     {
         "id": "deploy-first",
-        "execute-command": "/opt/first/run.sh",
+        "execute-command": "/root/first/run.sh",
         "command-working-directory": "/opt/first",
         "response-message": "Executing first script",
         "include-command-output-in-response": true,
