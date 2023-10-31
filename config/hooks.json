@@ -1,0 +1,26 @@
+[
+    {
+        "id": "deploy-first",
+        "execute-command": "/root/first/run.sh",
+        "command-working-directory": "/root/first",
+        "response-message": "Executing redeploy script",
+        "include-command-output-in-response": true,
+        "include-command-output-in-response-on-error": true
+    },
+    {
+        "id": "deploy-second",
+        "execute-command": "/root/second/run.sh",
+        "command-working-directory": "/root/second",
+        "response-message": "Executing redeploy script",
+        "include-command-output-in-response": true,
+        "include-command-output-in-response-on-error": true
+    },
+    {
+        "id": "deploy-third",
+        "execute-command": "/root/third/run.sh",
+        "command-working-directory": "/root/third",
+        "response-message": "Executing redeploy script",
+        "include-command-output-in-response": true,
+        "include-command-output-in-response-on-error": true
+    }
+]

@@ -1,0 +1,12 @@
+services:
+  webhook:
+    image: thecatlady/webhook
+    container_name: webhook
+    command: -verbose -hooks=hooks.json -hotreload
+    environment:
+      - TZ=Asia/Jakarta #optional
+    volumes:
+      - ./config:/config
+    ports:
+      - 9000:9000
+    restart: always
