@@ -7,7 +7,7 @@ services:
       - TZ=Asia/Jakarta #optional
     volumes:
       - ./config:/config
-      - /root/first:/opt/first
+      - /root/first:/opt/git
       - /root/second:/opt/second
       - /root/third:/opt/third
     ports:
