@@ -7,9 +7,9 @@ services:
       - TZ=Asia/Jakarta #optional
     volumes:
       - ./config:/config
-      - /root/first/run.sh:/opt/first/run.sh
-      - /root/second/run.sh:/opt/second/run.sh
-      - /root/third/run.sh:/opt/third/run.sh
+      - /root/first:/opt/first
+      - /root/second:/opt/second
+      - /root/third:/opt/third
     ports:
       - 9000:9000
     restart: always
